@@ -1,0 +1,16 @@
+# chef-ufw
+
+Installs and enables Ubuntu's
+[Uncomplicated Firewall](https://help.ubuntu.com/community/UFW).
+
+## Attributes
+
+* `ufw/allow`: array containing 'allow' rules
+* `ufw/deny`: array containing 'deny' rules
+
+
+## Recipes
+
+* `ufw`: installs and enables UFW
+* `ufw::allow`: sets up 'allow' rules
+* `ufw::deny`: sets up 'deny' rules
