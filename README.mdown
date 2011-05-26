@@ -3,6 +3,7 @@
 Installs and enables Ubuntu's
 [Uncomplicated Firewall](https://help.ubuntu.com/community/UFW).
 
+
 ## Attributes
 
 * `ufw/allow`: array containing 'allow' rules
@@ -12,5 +13,5 @@ Installs and enables Ubuntu's
 ## Recipes
 
 * `ufw`: installs and enables UFW
-* `ufw::allow`: sets up 'allow' rules
-* `ufw::deny`: sets up 'deny' rules
+* `ufw::allow`: sets up 'allow' rules (default: allow SSH & HTTP connections)
+* `ufw::deny`: sets up 'deny' rules (default: none)
