@@ -1,4 +1,4 @@
-include_recipe "aptitude"
+include_recipe "apt"
 
 package "ufw" do
   action :upgrade
