@@ -2,7 +2,7 @@ maintainer        "Carlo Zottmann"
 maintainer_email  "carlo@zottmann.org"
 license           "WTFPL"
 description       "Installs UFW (Uncomplicated Firewall)"
-version           "1.0.0"
+version           "1.0.1"
 depends           "apt"
 supports          "ubuntu"
 

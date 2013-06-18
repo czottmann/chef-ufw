@@ -1,0 +1,4 @@
+[PostgreSQL]
+title=PosgreSQL database
+description=PosgreSQL - The world's most advanced open source database
+ports=5432/tcp

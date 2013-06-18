@@ -1,2 +1,2 @@
-default[:ufw][:allow] = [ "ssh", "http" ]
+default[:ufw][:allow] = [ "ssh" ]
 default[:ufw][:deny]  = []
